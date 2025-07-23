@@ -8,7 +8,7 @@ document.getElementById("disasterForm").addEventListener("submit", function(e) {
   let prediction = "No Disaster";
 
   // 🔁 Simple Logic (replace with real ML API later)
-  if (magnitude > 5.5 && depth < 70) {
+  if (magnitude > 4.5 && depth < 70) {
     prediction = "Earthquake";
   } else if (rainfall > 100) {
     prediction = "Flood";
